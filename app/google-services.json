@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "627566925402",
+    "firebase_url": "https://faithapp-c1d45.firebaseio.com",
+    "project_id": "faithapp-c1d45",
+    "storage_bucket": "faithapp-c1d45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627566925402:android:52107747c5eb6a84",
+        "android_client_info": {
+          "package_name": "faithapp.com.logintest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627566925402-g2jci0488o9kgem30dfkbntgen6930ot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "faithapp.com.logintest",
+            "certificate_hash": "7E271078DC98DFFD855126981997C5A7727B0F19"
+          }
+        },
+        {
+          "client_id": "627566925402-lm67uemhr5k34kivolr67tu15kptabg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHjnuMFSz3I8eMYj2vcE5FN8K-5QcmfGo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627566925402-lm67uemhr5k34kivolr67tu15kptabg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627566925402:android:f49ecff4144e7a5d",
+        "android_client_info": {
+          "package_name": "faithapp.com.faithapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627566925402-b8tpif6ml364f48pmpt7to6c3i08oqn4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "faithapp.com.faithapp",
+            "certificate_hash": "7E271078DC98DFFD855126981997C5A7727B0F19"
+          }
+        },
+        {
+          "client_id": "627566925402-lm67uemhr5k34kivolr67tu15kptabg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHjnuMFSz3I8eMYj2vcE5FN8K-5QcmfGo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627566925402-lm67uemhr5k34kivolr67tu15kptabg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

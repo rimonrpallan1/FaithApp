@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/landing_card_view_item_click_music_grid_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <faithapp.com.faithapp.custom.FlowLayout
+        android:id="@+id/faith_landing_card_church_music_tabfragment_image_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/faith_background_card_color"
+        android:gravity="center">
+
+    </faithapp.com.faithapp.custom.FlowLayout>
+</ScrollView>

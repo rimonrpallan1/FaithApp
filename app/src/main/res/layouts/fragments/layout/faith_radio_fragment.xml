@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Light" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="@drawable/faith_radio_img_real">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_10"
+        android:layout_gravity="bottom|center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/_06"
+            android:layout_gravity="bottom|center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Music Name"
+                android:textSize="@dimen/_16"
+                android:layout_gravity="bottom|center"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/_06"
+        android:layout_gravity="bottom|center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author"
+            android:textSize="@dimen/_14"
+            android:layout_gravity="bottom|center"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/_100"
+            android:layout_height="@dimen/_100"
+            android:orientation="horizontal"
+            android:background="#fffbc1"
+            android:layout_gravity="bottom|center">
+
+            <ImageButton
+                android:id="@+id/faith_radio_fragment_button"
+                android:layout_width="@dimen/_100"
+                android:layout_height="@dimen/_100"
+                android:background="@drawable/ripple_effect_radio"
+                android:src="@drawable/radio_play_button"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

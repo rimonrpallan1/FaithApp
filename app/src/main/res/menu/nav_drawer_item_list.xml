@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_drawer"
+            android:icon="@drawable/home"
+            android:title="HOME"
+            app:actionLayout="@layout/menu_counter"/>
+        <item
+            android:id="@+id/profile_drawer"
+            android:icon="@drawable/profile"
+            android:title="PROFILE"
+            app:actionLayout="@layout/menu_counter"/>
+        <item
+            android:id="@+id/favorites_drawer"
+            android:icon="@drawable/favorites"
+            android:title="FAVORITES"
+            app:actionLayout="@layout/menu_counter"/>
+        <item
+            android:id="@+id/feed_support_drawer"
+            android:icon="@drawable/feedback_and_support"
+            android:title="FEEDBACK &amp; SUPPORT"
+            app:actionLayout="@layout/menu_counter"/>
+        <item
+            android:id="@+id/rate_us_drawer"
+            android:icon="@drawable/rate_us"
+            android:title="RATE US"
+            app:actionLayout="@layout/menu_counter"/>
+        <item
+            android:id="@+id/share_drawer"
+            android:icon="@drawable/share"
+            android:title="SHARE"
+            app:actionLayout="@layout/menu_counter"/>
+
+
+    </group>
+</menu>

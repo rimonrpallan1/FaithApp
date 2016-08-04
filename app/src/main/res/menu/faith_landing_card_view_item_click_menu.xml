@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/faith_landing_card_view_item_click_menu_radio_play_icon"
+        android:icon="@drawable/ic_play_arrow_black_18dp"
+        android:orderInCategory="100"
+        android:title="@string/action_play"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/faith_landing_card_view_item_click_menu_radio_icon"
+        android:icon="@drawable/ic_radio"
+        android:orderInCategory="100"
+        android:title="@string/action_radio"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/faith_landing_card_view_item_click_menu_radio_notification_icon"
+        android:icon="@drawable/ic_notifications_black_18dp"
+        android:orderInCategory="100"
+        android:title="@string/action_notification"
+        app:showAsAction="always" />
+
+</menu>

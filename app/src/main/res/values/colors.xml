@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fdd835</color>
+    <color name="colorPrimaryDark">#fbc02d</color>
+    <color name="colorAccent">#f6ea01</color>
+    <color name="faith_background_card_color">#FFFFFF</color>
+    <color name="faith_card_title">#000000</color>
+    <color name="faith_navigation_drawer_sign_in_text_color">#44413A</color>
+    <color name="faith_landing_card_view_line_color">#cacaca</color>
+
+    <color name="_1">#297bf4</color>
+    <color name="_2">#f42929</color>
+    <color name="_3">#29f42e</color>
+    <color name="_4">#FF4081</color>
+    <color name="_5">#f6ea01</color>
+    <color name="_6">#9C27B0</color>
+    <color name="_7">#3F51B5</color>
+    <color name="_8">#009688</color>
+    <color name="_9">#FF9800</color>
+    <color name="_10">#000000</color>
+    <color name="_11">#607D8B</color>
+    <color name="_12">#795548</color>
+
+    <color name="ripple_radio_pressed">#9E9E9E</color>
+
+
+    <color name="ripple_radio">#fffbc1</color>
+
+    <color name="disc_layout_highlighted">#424242</color>
+    <color name="disc_close_highlighted">#20000000</color>
+    <color name="disc_layout_not_highlighted">#00000000</color>
+</resources>

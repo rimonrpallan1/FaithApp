@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/faith_search_clicked_automulticompletetext"
+        /> <!-- pressed -->
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/faith_search_focused_automulticompletetext"
+        /> <!-- focused -->
+    <item
+        android:drawable="@drawable/faith_search_unfocused_automulticompletetext"
+        /> <!-- default -->
+</selector>

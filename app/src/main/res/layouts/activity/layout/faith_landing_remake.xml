@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/faith_background_card_color"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/landing_card_view_item_click_pic_btn_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100"
+                android:layout_marginTop="@dimen/_30"
+                android:layout_margin="@dimen/_20"
+                android:background="@color/faith_background_card_color"
+                android:orientation="horizontal">
+
+             <FrameLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:gravity="center">
+
+                    <Button
+                        android:id="@+id/landing_card_view_item_click_call_floating_btn"
+                        android:layout_width="@dimen/_90"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_24"
+                        android:src="@drawable/call_small_btn"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_gravity="center|left" />
+
+                    <ImageView
+                        android:id="@+id/landing_card_view_item_click_church_icon_btn"
+                        android:layout_width="@dimen/_90"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_church_aulter" />
+
+
+
+                    <ImageButton
+                        android:id="@+id/landing_card_view_item_click_prayer_request_floating_btn"
+                        android:layout_width="@dimen/_90"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|right"
+                        android:background="@android:color/transparent" />
+
+             </FrameLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/landing_card_view_item_click_expandable_text_view_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:visibility="visible">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/framelayout_fade_anim"
+                            android:background="@color/faith_background_card_color"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/card_view_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:layout_gravity="top|center_horizontal"
+                                android:text="@string/card_radio_church_title"
+                                android:textColor="@color/faith_card_title"
+                                android:textSize="@dimen/_14" />
+
+                            <TextView
+                                android:id="@+id/card_view_description"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/_15"
+                                android:gravity="center"
+                                android:layout_marginLeft="@dimen/_70"
+                                android:layout_marginRight="@dimen/_70"
+                                android:text="@string/card_radio_church_description"
+                                android:textSize="@dimen/_11" />
+                </FrameLayout>
+
+
+
+                </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/landing_card_view_item_click_pic_btn_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/_20"
+        android:layout_marginRight="@dimen/_20"
+        android:background="@color/faith_background_card_color"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/landing_card_view_item_click_expandable_grid_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/faith_background_card_color"
+            android:orientation="vertical"
+            android:gravity="end"
+            android:layout_gravity="end|center_horizontal"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_20"
+                android:layout_marginTop="@dimen/_20"
+                android:background="@android:color/transparent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tab_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/toolbar" />
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_below="@id/tab_layout" />
+
+                <!-- <ImageButton
+                     android:id="@+id/landing_card_view_item_grid_gallery_img_btn"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="20"
+                     android:background="?attr/selectableItemBackground"
+                     android:src="@drawable/ic_crop_original_black_24dp" />
+
+                 <ImageButton
+                     android:id="@+id/landing_card_view_item_grid_play_img_btn"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="20"
+                     android:background="?attr/selectableItemBackground"
+                     android:src="@drawable/ic_play_arrow_black_18dp" />
+
+                 <ImageButton
+                     android:id="@+id/landing_card_view_item_grid_radio_img_btn"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="20"
+                     android:background="?attr/selectableItemBackground"
+                     android:src="@drawable/ic_radio" />
+
+                 <ImageButton
+                     android:id="@+id/landing_card_view_item_grid_gallery_notification_btn"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="20"
+                     android:background="?attr/selectableItemBackground"
+                     android:src="@drawable/ic_notifications_black_18dp" />
+
+                 <ImageButton
+                     android:id="@+id/landing_card_view_item_grid_location_img_btn"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="20"
+                     android:background="?attr/selectableItemBackground"
+                     android:src="@drawable/ic_location_on_black_18dp" />-->
+            </LinearLayout>
+            <!--
+                    <ScrollView
+                        android:id="@+id/landing_card_view_item_click_grid_scroll_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <faithapp.com.faithapp.custom.FlowLayout
+                            android:id="@+id/image_grid"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/faith_background_card_color"
+                            android:gravity="center">
+
+                        </faithapp.com.faithapp.custom.FlowLayout>
+                    </ScrollView>-->
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
